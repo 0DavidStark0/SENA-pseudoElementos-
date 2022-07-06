@@ -1,0 +1,45 @@
+.p-primeraLinea::first-line{
+  color: rgb(63, 207, 207);
+  font-size: x-large;
+  font-variant: small-caps;
+  line-height: 50px;
+  word-spacing: 20px;
+  background: scroll chartreuse;
+  letter-spacing: 3px;
+}
+.p-primeraLetra::first-letter{
+  color: blue;
+  font-size: 50px;
+}
+.p-beforeAfter::before{
+  content: "pseudo elemento before";
+  color: rgb(140, 0, 255);
+  text-transform: uppercase;
+}
+.p-beforeAfter::after{
+  content: "pseudo elemento after";
+  color: rgb(0, 255, 128);
+  text-transform: uppercase;
+}
+.p-selection::selection {
+  color: red;
+  background: yellow;
+}
+::marker{
+  color: red;
+  font-size: 20px;
+}
+::placeholder{
+  color: red;
+  font-size: 20px;
+}
+.p-backdrop::backdrop{
+  background-color: yellowgreen;
+}
+::spelling-error  {
+  text-decoration: wavy red;
+}
+::grammar-error  {
+  text-decoration: underline red;
+  color: red;
+}
